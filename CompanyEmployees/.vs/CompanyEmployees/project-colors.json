@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9": {
+      "ProjectGuid": "fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9",
+      "DisplayName": "CompanyEmployees",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "2dd00a41-29ee-48bb-964d-fa087891c0ff": {
+      "ProjectGuid": "2dd00a41-29ee-48bb-964d-fa087891c0ff",
+      "DisplayName": "Contracts",
+      "ColorIndex": 1
+    },
+    "a9110135-27a8-4ce7-8bbf-c091719c61db": {
+      "ProjectGuid": "a9110135-27a8-4ce7-8bbf-c091719c61db",
+      "DisplayName": "LoggerService",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
