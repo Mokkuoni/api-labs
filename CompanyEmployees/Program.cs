@@ -1,5 +1,6 @@
 using CompanyEmployees.Controllers;
 using CompanyEmployees.Extensions;
+using FluentAssertions.Common;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Mvc;
 using NLog;
@@ -10,6 +11,9 @@ builder.Services.ConfigureCors();
 builder.Services.ConfigureIISIntegration();
 builder.Services.ConfigureLoggerService();
 builder.Services.AddAuthorization();
+builder.Services.ConfigureSqlContext(builder.Configuration);
+builder.Services.ConfigureRepositoryManager();
+
 
 builder.Services.AddControllers(conf =>
 {

@@ -13,3 +13,5 @@ C:\Users\USER\Desktop\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerServ
 C:\Users\USER\Desktop\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerService.dll
 C:\Users\USER\Desktop\CompanyEmployees\LoggerService\obj\Debug\net6.0\ref\LoggerService.dll
 C:\Users\USER\Desktop\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerService.pdb
+C:\Users\USER\Desktop\CompanyEmployees\LoggerService\bin\Debug\net6.0\Entities.dll
+C:\Users\USER\Desktop\CompanyEmployees\LoggerService\bin\Debug\net6.0\Entities.pdb

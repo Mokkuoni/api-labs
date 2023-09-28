@@ -20,7 +20,17 @@
       "ProjectGuid": "a9110135-27a8-4ce7-8bbf-c091719c61db",
       "DisplayName": "LoggerService",
       "ColorIndex": 2
+    },
+    "34712f67-0e3f-4aa6-bc2a-9a4587e73b4d": {
+      "ProjectGuid": "34712f67-0e3f-4aa6-bc2a-9a4587e73b4d",
+      "DisplayName": "Entities",
+      "ColorIndex": 3
+    },
+    "0acaf502-6e8f-4820-9dc0-f028c6e8c924": {
+      "ProjectGuid": "0acaf502-6e8f-4820-9dc0-f028c6e8c924",
+      "DisplayName": "Repository",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }

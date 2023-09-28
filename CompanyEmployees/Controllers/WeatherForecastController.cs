@@ -1,4 +1,5 @@
 ﻿using Contracts;
+using Entities.Models;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
@@ -10,22 +11,20 @@ namespace CompanyEmployees.Controllers
     [ApiController]
     public class WeatherForecastController : ControllerBase
     {
-        private ILoggerManager _logger;
-        public WeatherForecastController(ILoggerManager logger)
+        private readonly IRepositoryManager _repository;
+        public WeatherForecastController(IRepositoryManager repository)
         {
-            _logger = logger;
+            _repository = repository;
         }
         [HttpGet]
-        public IEnumerable<string> Get()
+        public ActionResult<IEnumerable<string>> Get()
         {
-            _logger.LogInfo("Вот информационное сообщение от нашего контроллера значений.");
-           
-            _logger.LogDebug("Вот отладочное сообщение от нашего контроллера значений.");
-           
-            _logger.LogWarn("Вот сообщение предупреждения от нашего контроллера значений.");
-           
-            _logger.LogError("Вот сообщение об ошибке от нашего контроллера значений.");
-            return new string[] { "value1", "value2" };
+            var company = new Company { Id = Guid.NewGuid(), Name = "name", Address = "address", Country = "USA" };
+            var anotherCompany = new Company { Id = Guid.NewGuid(), Name = "ITCompany", Address = "addres", Country = "Russia" };
+            _repository.Company.Create(company);
+            _repository.Company.Create(anotherCompany);
+            _repository.Save();
+            return new string[] { "value1", "value2", "value3", "value4" };
         }
     }
 

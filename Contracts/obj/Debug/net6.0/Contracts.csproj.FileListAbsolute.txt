@@ -2,7 +2,6 @@ C:\Users\USER\Desktop\CompanyEmployees\Contracts\bin\Debug\net6.0\Contracts.deps
 C:\Users\USER\Desktop\CompanyEmployees\Contracts\bin\Debug\net6.0\Contracts.dll
 C:\Users\USER\Desktop\CompanyEmployees\Contracts\bin\Debug\net6.0\ref\Contracts.dll
 C:\Users\USER\Desktop\CompanyEmployees\Contracts\bin\Debug\net6.0\Contracts.pdb
-C:\Users\USER\Desktop\CompanyEmployees\Contracts\obj\Debug\net6.0\Contracts.csproj.AssemblyReference.cache
 C:\Users\USER\Desktop\CompanyEmployees\Contracts\obj\Debug\net6.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\USER\Desktop\CompanyEmployees\Contracts\obj\Debug\net6.0\Contracts.AssemblyInfoInputs.cache
 C:\Users\USER\Desktop\CompanyEmployees\Contracts\obj\Debug\net6.0\Contracts.AssemblyInfo.cs
@@ -10,3 +9,7 @@ C:\Users\USER\Desktop\CompanyEmployees\Contracts\obj\Debug\net6.0\Contracts.cspr
 C:\Users\USER\Desktop\CompanyEmployees\Contracts\obj\Debug\net6.0\Contracts.dll
 C:\Users\USER\Desktop\CompanyEmployees\Contracts\obj\Debug\net6.0\ref\Contracts.dll
 C:\Users\USER\Desktop\CompanyEmployees\Contracts\obj\Debug\net6.0\Contracts.pdb
+C:\Users\USER\Desktop\CompanyEmployees\Contracts\bin\Debug\net6.0\Entities.dll
+C:\Users\USER\Desktop\CompanyEmployees\Contracts\bin\Debug\net6.0\Entities.pdb
+C:\Users\USER\Desktop\CompanyEmployees\Contracts\obj\Debug\net6.0\Contracts.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\CompanyEmployees\Contracts\obj\Debug\net6.0\Contracts.csproj.CopyComplete
