@@ -13,6 +13,7 @@ builder.Services.ConfigureLoggerService();
 builder.Services.AddAuthorization();
 builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.ConfigureRepositoryManager();
+builder.Services.AddAutoMapper(typeof(Program));
 
 
 builder.Services.AddControllers(conf =>

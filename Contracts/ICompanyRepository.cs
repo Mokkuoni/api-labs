@@ -9,7 +9,9 @@ namespace Contracts
 {
     public interface ICompanyRepository
     {
+        IEnumerable<Company> GetAllCompanies(bool trackChanges);
         void Create(Company model);
         void Delete(Company model);
+
     }
 }
