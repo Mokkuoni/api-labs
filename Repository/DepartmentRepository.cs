@@ -15,5 +15,11 @@ namespace Repository
         : base(repositoryContext)
         {
         }
+        public IEnumerable<Department> GetDepartments(Guid companyId, bool trackChanges) =>
+        FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)
+         .OrderBy(e => e.Name);
+        public Department GetDepartment(Guid companyId, Guid id, bool trackChanges) =>
+        FindByCondition(e => e.CompanyId.Equals(companyId) && e.Id.Equals(id),
+        trackChanges).SingleOrDefault();
     }
 }
