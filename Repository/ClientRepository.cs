@@ -21,5 +21,10 @@ namespace Repository
         public Client GetClient(Guid companyId, Guid id, bool trackChanges) =>
         FindByCondition(e => e.CompanyId.Equals(companyId) && e.Id.Equals(id),
         trackChanges).SingleOrDefault();
+        public void CreateClientForCompany(Guid companyId, Client client)
+        {
+            client.CompanyId = companyId;
+            Create(client);
+        }
     }
 }

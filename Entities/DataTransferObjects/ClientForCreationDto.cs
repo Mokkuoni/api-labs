@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Entities.DataTransferObjects
 {
-    public class ClientDto
+    public class ClientForCreationDto
     {
-        public Guid Id { get; set; }
         public string Name { get; set; }
         public int Age { get; set; }
         public string PhoneNumber { get; set; }

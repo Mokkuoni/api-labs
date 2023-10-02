@@ -11,5 +11,6 @@ namespace Contracts
     {
         IEnumerable<Client> GetClients(Guid companyId, bool trackChanges);
         Client GetClient(Guid companyId, Guid id, bool trackChanges);
+        void CreateClientForCompany(Guid companyId, Client client);
     }
 }

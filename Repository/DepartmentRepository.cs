@@ -21,5 +21,10 @@ namespace Repository
         public Department GetDepartment(Guid companyId, Guid id, bool trackChanges) =>
         FindByCondition(e => e.CompanyId.Equals(companyId) && e.Id.Equals(id),
         trackChanges).SingleOrDefault();
+        public void CreateDepartmentForCompany(Guid companyId, Department department)
+        {
+            department.CompanyId = companyId;
+            Create(department);
+        }
     }
 }
