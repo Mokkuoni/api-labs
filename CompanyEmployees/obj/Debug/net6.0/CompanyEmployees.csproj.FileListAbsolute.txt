@@ -89,3 +89,4 @@ C:\Users\USER\Desktop\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\Reposit
 C:\Users\USER\Desktop\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\Repository.pdb
 C:\Users\USER\Desktop\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\USER\Desktop\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\USER\Desktop\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\Newtonsoft.Json.dll

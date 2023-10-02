@@ -14,13 +14,18 @@ builder.Services.AddAuthorization();
 builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.ConfigureRepositoryManager();
 builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddControllers(config => {
+    config.RespectBrowserAcceptHeader = true;
+})
+ .AddXmlDataContractSerializerFormatters();
 
 
 builder.Services.AddControllers(conf =>
 {
     conf.RespectBrowserAcceptHeader = true;
     conf.ReturnHttpNotAcceptable = true;
-});
+}).AddXmlDataContractSerializerFormatters()
+.AddCustomCSVFormatter();
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
