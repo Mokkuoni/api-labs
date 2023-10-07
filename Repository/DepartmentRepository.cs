@@ -26,5 +26,9 @@ namespace Repository
             department.CompanyId = companyId;
             Create(department);
         }
+        public void DeleteDepartment(Department department)
+        {
+            Delete(department);
+        }
     }
 }

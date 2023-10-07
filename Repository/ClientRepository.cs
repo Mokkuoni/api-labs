@@ -26,5 +26,9 @@ namespace Repository
             client.CompanyId = companyId;
             Create(client);
         }
+        public void DeleteClient(Client client)
+        {
+            Delete(client);
+        }
     }
 }

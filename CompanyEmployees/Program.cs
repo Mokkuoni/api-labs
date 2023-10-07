@@ -24,8 +24,9 @@ builder.Services.AddControllers(conf =>
 {
     conf.RespectBrowserAcceptHeader = true;
     conf.ReturnHttpNotAcceptable = true;
-}).AddXmlDataContractSerializerFormatters()
-.AddCustomCSVFormatter();
+}).AddNewtonsoftJson()
+  .AddXmlDataContractSerializerFormatters()
+  .AddCustomCSVFormatter();
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
