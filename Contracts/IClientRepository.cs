@@ -9,8 +9,8 @@ namespace Contracts
 {
     public interface IClientRepository
     {
-        IEnumerable<Client> GetClients(Guid companyId, bool trackChanges);
-        Client GetClient(Guid companyId, Guid id, bool trackChanges);
+        Task<IEnumerable<Client>> GetAllClientsAsync(bool trackChanges);
+        Task<Client> GetClientAsync(Guid companyId, Guid id, bool trackChanges);
         void CreateClientForCompany(Guid companyId, Client client);
         void DeleteClient(Client client);
     }

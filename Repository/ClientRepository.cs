@@ -1,6 +1,7 @@
 ﻿using Contracts;
 using Entities;
 using Entities.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,12 +16,13 @@ namespace Repository
         : base(repositoryContext)
         {
         }
-        public IEnumerable<Client> GetClients(Guid companyId, bool trackChanges) =>
-        FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)
-         .OrderBy(e => e.Name);
-        public Client GetClient(Guid companyId, Guid id, bool trackChanges) =>
-        FindByCondition(e => e.CompanyId.Equals(companyId) && e.Id.Equals(id),
-        trackChanges).SingleOrDefault();
+        public async Task<IEnumerable<Client>> GetAllClientsAsync(bool trackChanges)
+        => await FindAll(trackChanges)
+        .OrderBy(c => c.Name)
+        .ToListAsync();
+        public async Task<Client> GetClientAsync(Guid companyId, Guid id, bool trackChanges) =>
+        await FindByCondition(c => c.Id.Equals(companyId), trackChanges)
+        .SingleOrDefaultAsync();
         public void CreateClientForCompany(Guid companyId, Client client)
         {
             client.CompanyId = companyId;

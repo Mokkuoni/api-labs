@@ -1,6 +1,7 @@
 ﻿using Contracts;
 using Entities;
 using Entities.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,12 +16,13 @@ namespace Repository
         : base(repositoryContext)
         {
         }
-        public IEnumerable<Department> GetDepartments(Guid companyId, bool trackChanges) =>
-        FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)
-         .OrderBy(e => e.Name);
-        public Department GetDepartment(Guid companyId, Guid id, bool trackChanges) =>
-        FindByCondition(e => e.CompanyId.Equals(companyId) && e.Id.Equals(id),
-        trackChanges).SingleOrDefault();
+        public async Task<IEnumerable<Department>> GetAllDepartmentsAsync(bool trackChanges)
+        => await FindAll(trackChanges)
+        .OrderBy(c => c.Name)
+        .ToListAsync();
+        public async Task<Department> GetDepartmentAsync(Guid companyId, Guid id, bool trackChanges) =>
+        await FindByCondition(c => c.Id.Equals(companyId), trackChanges)
+        .SingleOrDefaultAsync();
         public void CreateDepartmentForCompany(Guid companyId, Department department)
         {
             department.CompanyId = companyId;
