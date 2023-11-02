@@ -38,6 +38,7 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
     builder.Services.AddScoped<ValidationFilterAttribute>();
     builder.Services.AddScoped<ValidateCompanyExistsAttribute>();
     builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
+    builder.Services.ConfigureVersioning();
 });
 
 var nlogPath = Directory.GetCurrentDirectory() + "\\nlog.config";
