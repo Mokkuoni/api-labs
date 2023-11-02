@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using CompanyEmployees.ActionFilters;
 using Contracts;
 using Entities.DataTransferObjects;
 using Entities.Models;
@@ -42,18 +43,9 @@ namespace CompanyEmployees.Controllers
             return Ok(department);
         }
         [HttpPost]
+        [ServiceFilter(typeof(ValidationFilterAttribute))]
         public async Task<IActionResult> CreateDepartmentForCompany(Guid companyId, [FromBody] DepartmentForCreationDto department)
         {
-            if (department == null)
-            {
-                _logger.LogError("DepartmentForCreationDto object sent from client is null.");
-            return BadRequest("DepartmentForCreationDto object is null");
-            }
-            if (!ModelState.IsValid)
-            {
-                _logger.LogError("Invalid model state for the DepartmentForCreationDtoobject");
-                return UnprocessableEntity(ModelState);
-            }
             var company = await _repository.Company.GetCompanyAsync(companyId, trackChanges: false);
             if (company == null)
             {
@@ -71,54 +63,26 @@ namespace CompanyEmployees.Controllers
             }, departmentToReturn);
         }
         [HttpDelete("{id}")]
+        [ServiceFilter(typeof(ValidateDepartmentForCompanyExistsAttribute))]
         public async Task<IActionResult> DeleteDepartmentForCompany(Guid companyId, Guid id)
         {
-            var company = await _repository.Company.GetCompanyAsync(companyId, trackChanges: false);
-            if (company == null)
-            {
-                _logger.LogInfo($"Company with id: {companyId} doesn't exist in the database.");
-            return NotFound();
-            }
-            var departmentForCompany = await _repository.Department.GetDepartmentAsync(companyId, id, trackChanges: false);
-            if (departmentForCompany == null)
-            {
-                _logger.LogInfo($"Department with id: {id} doesn't exist in the database.");
-            return NotFound();
-            }
+            var departmentForCompany = HttpContext.Items["department"] as Department;
             _repository.Department.DeleteDepartment(departmentForCompany);
             await _repository.SaveAsync();
             return NoContent();
         }
         [HttpPut("{id}")]
+        [ServiceFilter(typeof(ValidationFilterAttribute))]
+        [ServiceFilter(typeof(ValidateDepartmentForCompanyExistsAttribute))]
         public async Task<IActionResult> UpdateDepartmentForCompany(Guid companyId, Guid id, [FromBody] DepartmentForUpdateDto department)
         {
-            if (department == null)
-            {
-                _logger.LogError("DepartmentForUpdateDto object sent from client is null.");
-            return BadRequest("DepartmentForUpdateDto object is null");
-            }
-            if (!ModelState.IsValid)
-            {
-                _logger.LogError("Invalid model state for the DepartmentForUpdateDto object");
-                return UnprocessableEntity(ModelState);
-            }
-            var company = await _repository.Company.GetCompanyAsync(companyId, trackChanges: false);
-            if (company == null)
-            {
-                _logger.LogInfo($"Company with id: {companyId} doesn't exist in the database.");
-            return NotFound();
-            }
-            var departmentEntity = await _repository.Department.GetDepartmentAsync(companyId, id, trackChanges: true);
-            if (departmentEntity == null)
-            {
-                _logger.LogInfo($"Department with id: {id} doesn't exist in the database.");
-            return NotFound();
-            }
+            var departmentEntity = HttpContext.Items["department"] as Department;
             _mapper.Map(department, departmentEntity);
             await _repository.SaveAsync();
             return NoContent();
         }
         [HttpPatch("{id}")]
+        [ServiceFilter(typeof(ValidateDepartmentForCompanyExistsAttribute))]
         public IActionResult PartiallyUpdateDepartmentForCompany(Guid companyId, Guid id, [FromBody] JsonPatchDocument<DepartmentForUpdateDto> patchDoc)
         {
             if (patchDoc == null)
@@ -126,18 +90,7 @@ namespace CompanyEmployees.Controllers
                 _logger.LogError("patchDoc object sent from client is null.");
                 return BadRequest("patchDoc object is null");
             }
-            var company = _repository.Company.GetCompanyAsync(companyId, trackChanges: false);
-            if (company == null)
-            {
-                _logger.LogInfo($"Company with id: {companyId} doesn't exist in the database.");
-                return NotFound();
-            }
-            var departmentEntity = _repository.Department.GetDepartmentAsync(companyId, id, trackChanges: true);
-            if (departmentEntity == null)
-            {
-                _logger.LogInfo($"Department with id: {id} doesn't exist in the database.");
-                return NotFound();
-            }
+            var departmentEntity = HttpContext.Items["department"] as Department;
             var departmentToPatch = _mapper.Map<DepartmentForUpdateDto>(departmentEntity);
             patchDoc.ApplyTo(departmentToPatch, ModelState);
             TryValidateModel(departmentToPatch);

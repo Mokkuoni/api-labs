@@ -1,3 +1,4 @@
+using CompanyEmployees.ActionFilters;
 using CompanyEmployees.Controllers;
 using CompanyEmployees.Extensions;
 using FluentAssertions.Common;
@@ -31,6 +32,8 @@ builder.Services.AddControllers(conf =>
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
     options.SuppressModelStateInvalidFilter = true;
+    builder.Services.AddScoped<ValidationFilterAttribute>();
+    builder.Services.AddScoped<ValidateCompanyExistsAttribute>();
 });
 
 var nlogPath = Directory.GetCurrentDirectory() + "\\nlog.config";
