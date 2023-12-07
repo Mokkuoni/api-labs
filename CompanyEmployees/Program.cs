@@ -11,6 +11,14 @@ using Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddScoped<ValidationFilterAttribute>();
+builder.Services.AddScoped<ValidateCompanyExistsAttribute>();
+builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
+builder.Services.ConfigureVersioning();
+builder.Services.AddAuthentication();
+builder.Services.ConfigureIdentity();
+builder.Services.AddScoped<IAuthenticationManager, AuthenticationManager>();
+builder.Services.ConfigureJWT(builder.Configuration);
 builder.Services.ConfigureCors();
 builder.Services.ConfigureIISIntegration();
 builder.Services.ConfigureLoggerService();
@@ -35,10 +43,6 @@ builder.Services.AddControllers(conf =>
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
     options.SuppressModelStateInvalidFilter = true;
-    builder.Services.AddScoped<ValidationFilterAttribute>();
-    builder.Services.AddScoped<ValidateCompanyExistsAttribute>();
-    builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
-    builder.Services.ConfigureVersioning();
 });
 
 var nlogPath = Directory.GetCurrentDirectory() + "\\nlog.config";
@@ -53,6 +57,7 @@ app.UseForwardedHeaders(new ForwardedHeadersOptions()
     ForwardedHeaders = ForwardedHeaders.All
 });
 app.UseHttpsRedirection();
+app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 app.Run();

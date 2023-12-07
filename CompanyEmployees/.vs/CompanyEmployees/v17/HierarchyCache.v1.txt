@@ -1,0 +1,336 @@
+﻿++Решение "CompanyEmployees" ‎(проекты: 5 из 5)
+i:{00000000-0000-0000-0000-000000000000}:CompanyEmployees.sln
+++CompanyEmployees
+i:{00000000-0000-0000-0000-000000000000}:CompanyEmployees
+++Connected Services 
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:>601
+++Properties
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\properties\
+++launchSettings.json
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\properties\launchsettings.json
+++Зависимости
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:>600
+i:{2dd00a41-29ee-48bb-964d-fa087891c0ff}:>497
+i:{a9110135-27a8-4ce7-8bbf-c091719c61db}:>499
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:>498
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:>496
+++ActionFilters
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\actionfilters\
+++ValidateClientForCompanyExistsAttribute.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\actionfilters\validateclientforcompanyexistsattribute.cs
+++ValidateCompanyExistsAttribute.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\actionfilters\validatecompanyexistsattribute.cs
+++ValidateDepartmentForCompanyExistsAttribute .cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\actionfilters\validatedepartmentforcompanyexistsattribute .cs
+++ValidateEmployeeForCompanyExistsAttribute.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\actionfilters\validateemployeeforcompanyexistsattribute.cs
+++ValidationFilterAttribute.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\actionfilters\validationfilterattribute.cs
+++Controllers
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\controllers\
+++AuthenticationController.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\controllers\authenticationcontroller.cs
+++ClientsController.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\controllers\clientscontroller.cs
+++CompaniesController.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\controllers\companiescontroller.cs
+++CompaniesV2Controller.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\controllers\companiesv2controller.cs
+++DepartmentController.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\controllers\departmentcontroller.cs
+++EmployeesController.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\controllers\employeescontroller.cs
+++WeatherForecastController.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\controllers\weatherforecastcontroller.cs
+++Extensions
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\extensions\
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:c:\users\user\desktop\companyemployees\repository\extensions\
+++ExceptionMiddlewareExtensions.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\extensions\exceptionmiddlewareextensions.cs
+++ServiceExtensions.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\extensions\serviceextensions.cs
+++internal_logs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\internal_logs\
+++logs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\logs\
+++Migrations
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\migrations\
+++20230923070132_DatabaseCreation.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\migrations\20230923070132_databasecreation.cs
+++20230923090839_InitialData.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\migrations\20230923090839_initialdata.cs
+++20231102094112_CreatingIdentityTables.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\migrations\20231102094112_creatingidentitytables.cs
+++RepositoryContextModelSnapshot.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\migrations\repositorycontextmodelsnapshot.cs
+++ModelBinders
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\modelbinders\
+++ArrayModelBinder.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\modelbinders\arraymodelbinder.cs
+++appsettings.json
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\appsettings.json
+++CsvOutputFormatter.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\csvoutputformatter.cs
+++MappingProfile.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\mappingprofile.cs
+++nlog.config
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\nlog.config
+++Program.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\program.cs
+++Зависимости службы не обнаружены
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:>602
+++Анализаторы
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:анализаторы
+i:{2dd00a41-29ee-48bb-964d-fa087891c0ff}:анализаторы
+i:{a9110135-27a8-4ce7-8bbf-c091719c61db}:анализаторы
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:анализаторы
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:анализаторы
+++Пакеты
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:пакеты
+i:{a9110135-27a8-4ce7-8bbf-c091719c61db}:пакеты
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:пакеты
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:пакеты
+++Платформы
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:платформы
+i:{2dd00a41-29ee-48bb-964d-fa087891c0ff}:платформы
+i:{a9110135-27a8-4ce7-8bbf-c091719c61db}:платформы
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:платформы
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:платформы
+++Проекты
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:проекты
+i:{2dd00a41-29ee-48bb-964d-fa087891c0ff}:проекты
+i:{a9110135-27a8-4ce7-8bbf-c091719c61db}:проекты
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:проекты
+++internallog.txt
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\internal_logs\internallog.txt
+++2023-09-09_logfile.txt
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\logs\2023-09-09_logfile.txt
+++2023-09-23_logfile.txt
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\logs\2023-09-23_logfile.txt
+++20230923070132_DatabaseCreation.Designer.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\migrations\20230923070132_databasecreation.designer.cs
+++20230923090839_InitialData.Designer.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\migrations\20230923090839_initialdata.designer.cs
+++20231102094112_CreatingIdentityTables.Designer.cs
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\migrations\20231102094112_creatingidentitytables.designer.cs
+++appsettings.Development.json
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{2dd00a41-29ee-48bb-964d-fa087891c0ff}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{a9110135-27a8-4ce7-8bbf-c091719c61db}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{2dd00a41-29ee-48bb-964d-fa087891c0ff}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{a9110135-27a8-4ce7-8bbf-c091719c61db}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{2dd00a41-29ee-48bb-964d-fa087891c0ff}:c:\users\user\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{a9110135-27a8-4ce7-8bbf-c091719c61db}:c:\users\user\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:c:\users\user\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{2dd00a41-29ee-48bb-964d-fa087891c0ff}:c:\users\user\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{a9110135-27a8-4ce7-8bbf-c091719c61db}:c:\users\user\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:c:\users\user\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+i:{2dd00a41-29ee-48bb-964d-fa087891c0ff}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{a9110135-27a8-4ce7-8bbf-c091719c61db}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++AutoMapper.Extensions.Microsoft.DependencyInjection (12.0.1)
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:>663
+++FluentAssertions (6.12.0)
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:>666
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.24)
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:>671
+++Microsoft.AspNetCore.JsonPatch (7.0.11)
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:>661
+++Microsoft.AspNetCore.Mvc.NewtonsoftJson (6.0.11)
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:>668
+++Microsoft.AspNetCore.Mvc.Versioning (5.1.0)
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:>660
+++Microsoft.EntityFrameworkCore.SqlServer (7.0.11)
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:>662
+++Microsoft.EntityFrameworkCore.Tools (7.0.11)
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:>673
+++Newtonsoft.Json (13.0.3)
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:>664
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:>637
+++NLog (5.2.4)
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:>675
+i:{a9110135-27a8-4ce7-8bbf-c091719c61db}:>634
+++Microsoft.AspNetCore.App
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\companyemployees\microsoft.netcore.app
+i:{2dd00a41-29ee-48bb-964d-fa087891c0ff}:c:\users\user\desktop\companyemployees\contracts\microsoft.netcore.app
+i:{a9110135-27a8-4ce7-8bbf-c091719c61db}:c:\users\user\desktop\companyemployees\loggerservice\microsoft.netcore.app
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\microsoft.netcore.app
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:c:\users\user\desktop\companyemployees\repository\microsoft.netcore.app
+++Entities
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\entities\bin\debug\net6.0\entities.dll
+i:{2dd00a41-29ee-48bb-964d-fa087891c0ff}:c:\users\user\desktop\companyemployees\entities\bin\debug\net6.0\entities.dll
+i:{00000000-0000-0000-0000-000000000000}:Entities
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:c:\users\user\desktop\companyemployees\entities\bin\debug\net6.0\entities.dll
+++LoggerService
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\loggerservice\bin\debug\net6.0\loggerservice.dll
+i:{00000000-0000-0000-0000-000000000000}:LoggerService
+++Repository
+i:{fe52bbd0-7a1c-4c29-9bb1-e36118f0c8c9}:c:\users\user\desktop\companyemployees\repository\bin\debug\net6.0\repository.dll
+i:{00000000-0000-0000-0000-000000000000}:Repository
+++Contracts
+i:{00000000-0000-0000-0000-000000000000}:Contracts
+i:{a9110135-27a8-4ce7-8bbf-c091719c61db}:c:\users\user\desktop\companyemployees\contracts\bin\debug\net6.0\contracts.dll
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:c:\users\user\desktop\companyemployees\contracts\bin\debug\net6.0\contracts.dll
+++IAuthenticationManager.cs
+i:{2dd00a41-29ee-48bb-964d-fa087891c0ff}:c:\users\user\desktop\companyemployees\contracts\iauthenticationmanager.cs
+++IClientRepository.cs
+i:{2dd00a41-29ee-48bb-964d-fa087891c0ff}:c:\users\user\desktop\companyemployees\contracts\iclientrepository.cs
+++ICompanyRepository.cs
+i:{2dd00a41-29ee-48bb-964d-fa087891c0ff}:c:\users\user\desktop\companyemployees\contracts\icompanyrepository.cs
+++IDataShaper.cs
+i:{2dd00a41-29ee-48bb-964d-fa087891c0ff}:c:\users\user\desktop\companyemployees\contracts\idatashaper.cs
+++IDepartmentRepository.cs
+i:{2dd00a41-29ee-48bb-964d-fa087891c0ff}:c:\users\user\desktop\companyemployees\contracts\idepartmentrepository.cs
+++IEmployeeRepository.cs
+i:{2dd00a41-29ee-48bb-964d-fa087891c0ff}:c:\users\user\desktop\companyemployees\contracts\iemployeerepository.cs
+++ILoggerManager.cs
+i:{2dd00a41-29ee-48bb-964d-fa087891c0ff}:c:\users\user\desktop\companyemployees\contracts\iloggermanager.cs
+++IRepositoryBase.cs
+i:{2dd00a41-29ee-48bb-964d-fa087891c0ff}:c:\users\user\desktop\companyemployees\contracts\irepositorybase.cs
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:c:\users\user\desktop\companyemployees\repository\irepositorybase.cs
+++IRepositoryManager.cs
+i:{2dd00a41-29ee-48bb-964d-fa087891c0ff}:c:\users\user\desktop\companyemployees\contracts\irepositorymanager.cs
+++LoggerManager.cs
+i:{a9110135-27a8-4ce7-8bbf-c091719c61db}:c:\users\user\desktop\companyemployees\loggerservice\loggermanager.cs
+++Configuration
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\configuration\
+++ClientConfiguration.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\configuration\clientconfiguration.cs
+++CompanyConfiguration.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\configuration\companyconfiguration.cs
+++DepartmentConfiguration.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\configuration\departmentconfiguration.cs
+++EmployeeConfiguration.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\configuration\employeeconfiguration.cs
+++DataTransferObjects
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\datatransferobjects\
+++ClientDto.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\datatransferobjects\clientdto.cs
+++ClientForCreationDto.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\datatransferobjects\clientforcreationdto.cs
+++ClientForManipulationDto.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\datatransferobjects\clientformanipulationdto.cs
+++ClientForUpdateDto.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\datatransferobjects\clientforupdatedto.cs
+++CompanyDto.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\datatransferobjects\companydto.cs
+++CompanyForCreationDto.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\datatransferobjects\companyforcreationdto.cs
+++CompanyForManipulationDto.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\datatransferobjects\companyformanipulationdto.cs
+++CompanyForUpdateDto.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\datatransferobjects\companyforupdatedto.cs
+++DepartmentDto.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\datatransferobjects\departmentdto.cs
+++DepartmentForCreationDto.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\datatransferobjects\departmentforcreationdto.cs
+++DepartmentForManipulationDto.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\datatransferobjects\departmentformanipulationdto.cs
+++DepartmentForUpdateDto.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\datatransferobjects\departmentforupdatedto.cs
+++EmployeeDto.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\datatransferobjects\employeedto.cs
+++EmployeeForCreationDto.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\datatransferobjects\employeeforcreationdto.cs
+++EmployeeForManipulationDto.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\datatransferobjects\employeeformanipulationdto.cs
+++EmployeeForUpdateDto.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\datatransferobjects\employeeforupdatedto.cs
+++UserForAuthenticationDto.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\datatransferobjects\userforauthenticationdto.cs
+++UserForRegistrationDto.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\datatransferobjects\userforregistrationdto.cs
+++ErrorModel
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\errormodel\
+++ErrorDetails.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\errormodel\errordetails.cs
+++Models
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\models\
+++Client.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\models\client.cs
+++Company.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\models\company.cs
+++Department.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\models\department.cs
+++Employee.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\models\employee.cs
+++User.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\models\user.cs
+++RequestFeatures
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\requestfeatures\
+++EmployeeParameters.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\requestfeatures\employeeparameters.cs
+++MetaData.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\requestfeatures\metadata.cs
+++PagedList.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\requestfeatures\pagedlist.cs
+++RequestParameters.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\requestfeatures\requestparameters.cs
+++RepositoryContext.cs
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:c:\users\user\desktop\companyemployees\entities\repositorycontext.cs
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.19)
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:>638
+++Microsoft.EntityFrameworkCore (7.0.11)
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:>636
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:>672
+++xunit.extensibility.core (2.5.0)
+i:{34712f67-0e3f-4aa6-bc2a-9a4587e73b4d}:>639
+++Utility
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:c:\users\user\desktop\companyemployees\repository\extensions\utility\
+++RepositoryEmployeeExtensions.cs
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:c:\users\user\desktop\companyemployees\repository\extensions\repositoryemployeeextensions.cs
+++AuthenticationManager.cs
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:c:\users\user\desktop\companyemployees\repository\authenticationmanager.cs
+++ClientRepository.cs
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:c:\users\user\desktop\companyemployees\repository\clientrepository.cs
+++CompanyRepository.cs
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:c:\users\user\desktop\companyemployees\repository\companyrepository.cs
+++DataShaper.cs
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:c:\users\user\desktop\companyemployees\repository\datashaper.cs
+++DepartmentRepository.cs
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:c:\users\user\desktop\companyemployees\repository\departmentrepository.cs
+++EmployeeRepository.cs
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:c:\users\user\desktop\companyemployees\repository\employeerepository.cs
+++JwtSecurityToken.cs
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:c:\users\user\desktop\companyemployees\repository\jwtsecuritytoken.cs
+++RepositoryManager.cs
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:c:\users\user\desktop\companyemployees\repository\repositorymanager.cs
+++OrderQueryBuilder.cs
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:c:\users\user\desktop\companyemployees\repository\extensions\utility\orderquerybuilder.cs
+++System.Linq.Dynamic.Core (1.3.5)
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:>674
+++System.IdentityModel.Tokens.Jwt (7.0.3)
+i:{0acaf502-6e8f-4820-9dc0-f028c6e8c924}:>691
