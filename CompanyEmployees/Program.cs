@@ -15,6 +15,7 @@ builder.Services.AddScoped<ValidationFilterAttribute>();
 builder.Services.AddScoped<ValidateCompanyExistsAttribute>();
 builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
 builder.Services.ConfigureVersioning();
+builder.Services.ConfigureSwagger();
 builder.Services.AddAuthentication();
 builder.Services.ConfigureIdentity();
 builder.Services.AddScoped<IAuthenticationManager, AuthenticationManager>();
@@ -49,6 +50,13 @@ var nlogPath = Directory.GetCurrentDirectory() + "\\nlog.config";
 LogManager.Setup().LoadConfigurationFromFile(nlogPath);
 
 var app = builder.Build();
+
+app.UseSwagger();
+app.UseSwaggerUI(s =>
+{
+    s.SwaggerEndpoint("/swagger/v1/swagger.json", "Code Maze API v1");
+    s.SwaggerEndpoint("/swagger/v2/swagger.json", "Code Maze API v2");
+});
 
 app.UseStaticFiles();
 app.UseCors("Cors Policy");
